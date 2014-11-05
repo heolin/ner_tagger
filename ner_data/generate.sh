@@ -1,0 +1,65 @@
+#!/usr/bin/env bash
+grep -e 'Sir [A-Z]' corpus.raw > sir.txt
+grep -e 'Mr\. [A-Z]' corpus.raw > mr.txt
+grep -e 'Mr [A-Z]' corpus.raw >> mr.txt
+grep -e 'Mrs\. [A-Z]' corpus.raw > mrs.txt
+grep -e 'Mrs [A-Z]' corpus.raw >> mrs.txt
+grep -e 'Master [A-Z]' corpus.raw > master.txt
+grep -e 'Miss [A-Z]' corpus.raw > miss.txt
+grep -e 'Madam [A-Z]' corpus.raw > madam.txt
+grep -e "Madame [A-Z]" corpus.raw > madame.txt
+grep -e "Lord [A-Z]" corpus.raw > lord.txt
+grep -e "Lady [A-Z][a-z]" corpus.raw > lady.txt
+grep -e "Dr [A-Z][a-z]" corpus.raw  > dr.txt
+grep -e "Dr\. [A-Z][a-z]" corpus.raw >> dr.txt
+grep -e "Prof\. [A-Z][a-z]" corpus.raw > prof.txt
+grep -e "St [A-Z][a-z][a-z]" corpus.raw > st.txt
+grep -e "St\. [A-Z][a-z][a-z]" corpus.raw >> st.txt
+grep -e "Doctor [A-Z][a-z]" corpus.raw > doctor.txt
+grep -e "Professor [A-Z][a-z]" corpus.raw > professor.txt
+grep -e "Dame [A-Z][a-z]" corpus.raw > dame.txt
+grep -e "Chief [A-Z][a-z]" corpus.raw > chief.txt
+grep -e "Sister [A-Z][a-z]" corpus.raw > sister.txt
+grep -e "Brother [A-Z][a-z]" corpus.raw > brother.txt
+grep -e "Reverend [A-Z][a-z]" corpus.raw > reverend.txt
+grep -e "Major [A-Z][a-z]" corpus.raw > major.txt
+grep -e "King [A-Z][a-z]" corpus.raw > king.txt
+grep -e "Queen [A-Z][a-z]" corpus.raw > queen.txt
+grep -e "Baron [A-Z][a-z]" corpus.raw > baron.txt
+grep -e "Baroness [A-Z][a-z]" corpus.raw > baroness.txt
+grep -e "Captain [A-Z][a-z]" corpus.raw > captain.txt
+grep -e "Duke [A-Z][a-z]" corpus.raw > duke.txt
+grep -e "Aunt [A-Z][a-z]" corpus.raw > aunt.txt
+grep -e "Uncle [A-Z][a-z]" corpus.raw > uncle.txt
+grep -e "Father [A-Z][a-z]" corpus.raw > father.txt
+grep -e "Mother [A-Z][a-z]" corpus.raw > mother.txt
+grep -e "Grandfather [A-Z][a-z]" corpus.raw > grandfather.txt
+grep -e "Grandma [A-Z][a-z]" corpus.raw > grandfather.txt
+grep -e "Gen\. [A-Z][a-z]" corpus.raw > gen.txt
+grep -e "Gen [A-Z][a-z]" corpus.raw >> gen.txt
+grep -e "Rev\. [A-Z][a-z]" corpus.raw > rev.txt
+grep -e "Coach [A-Z][a-z]" corpus.raw > coach.txt
+grep -e "Attorney [A-Z][a-z]" corpus.raw > attorney.txt
+grep -e "President [A-Z][a-z]" corpus.raw > president.txt
+grep -e "Governor [A-Z][a-z]" corpus.raw > governor.txt
+grep -e "Senator [A-Z][a-z]" corpus.raw > senator.txt
+grep -e "Secretary [A-Z][a-z]" corpus.raw > secretary.txt
+grep -e "Private [A-Z][a-z]" corpus.raw > private.txt
+grep -e "Cpl [A-Z][a-z]" corpus.raw > cpl.txt
+grep -e "Sgt [A-Z][a-z]" corpus.raw > sgt.txt
+grep -e "Commander [A-Z][a-z]" corpus.raw > commander.txt
+grep -e "Lieutenant [A-Z][a-z]" corpus.raw > lieutenant.txt
+grep -e "Colonel [A-Z][a-z]" corpus.raw > colonel.txt
+grep -e "General [A-Z][a-z]" corpus.raw > general.txt
+grep -e "Elder [A-Z][a-z]" corpus.raw > elder.txt
+grep -e "Bishop [A-Z][a-z]" corpus.raw > bishop.txt
+grep -e "Pope [A-Z][a-z]" corpus.raw > pope.txt
+grep -e "Sergeant [A-Z][a-z]" corpus.raw > sergeant.txt
+grep -e "Cardinal [A-Z][a-z]" corpus.raw > cardinal.txt
+grep -e "Earl of [A-Z][a-z]" corpus.raw > earlof.txt
+grep -e "Duke of [A-Z][a-z]" corpus.raw > dukeof.txt
+grep -e "Prince [A-Z][a-z]" corpus.raw > prince.txt
+grep -e "Princess [A-Z][a-z]" corpus.raw > princess.txt
+grep -e "Marquis [A-Z][a-z]" corpus.raw > marquis.txt
+grep -e " [A-Z][a-z][a-z][a-z][a-z][a-z]* [A-Z][a-z][a-z][a-z][a-z]* [a-z]" corpus.raw > random.txt
+
